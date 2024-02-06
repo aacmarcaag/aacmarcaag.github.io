@@ -1,23 +1,23 @@
 <!-- Display the countdown timer in an element -->
 
 <head>
-    <title>Pedro Roxo já apresentou a SAD?</title>
+    <title>Barata Alves já convocou a AG?</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather+Sans&family=Permanent+Marker&display=swap"
 </head>
 <body style="background-color: #1f1f1f;">
-    <div id="blink" style="font-family: Permanent Marker; font-size:5em; font-weight: 800; text-align: center; color:red">DEADLINE DAY</div>
+    <!-- <div id="blink" style="font-family: Permanent Marker; font-size:5em; font-weight: 800; text-align: center; color:red">DEADLINE DAY</div> -->
     <div style="padding-top: 15vh; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 700; text-align: center; color:honeydew">
-        <h1 style="">Pedro Roxo já anunciou SAD?</h1>
+        <h1 style="">Barata Alves já convocou a AG?</h1>
         <p style = "text-align: center; color:#fcba03; font-size: x-large;">NEM POR ISSO</p>
-        <h1>Quanto tempo falta?</h1>
+        <h1>Há quanto tempo devia ter sido?</h1>
         <p style=" height: 5vh;" id="demo"></p>
         <details>
             <summary style=" color:wheat">Saber mais</summary>
             <div style="flex-direction: row;">
-                <span style="font-weight: 100;">Na última Assembleia Geral da AAC/OAF, Pedro Roxo assegurou aos sócios que iria apresentar um projeto de uma SAD minoritária até ao final de 2021. Num comunicado lançado no dia 31 de dezembro de 2021, a direção adiou o compromisso para o final de janeiro de 2022. Até hoje, ainda <span style="color: red;">NÃO</span> foi anunciado.</span>
+                <span style="font-weight: 100;">Segundo os estatutos da AAC/OAF, tem de ser convocada uma Assembleia Geral até 90 dias </span>
             </div>
             <img src="roxo.png" width="250" alt="pedro roxo académica">
         </details>
@@ -26,7 +26,7 @@
 
 <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Jan 31, 2022 23:59:59").getTime();
+    var countDownDate = new Date("Oct 01, 2023 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -35,7 +35,7 @@
         var now = new Date().getTime();
 
         // Find the distance between now and the count down date
-        var distance = countDownDate - now;
+        var distance = now - countDownDate;
 
         // Time calculations for days, hours, minutes and seconds
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
